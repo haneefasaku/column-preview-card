@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* first */
+
+.sed {
+    background-color: #E28525;
+    padding: 2rem;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+.sed img {
+    width: 2rem;
+    margin-bottom: 1rem;
+}
+
+.sed h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.sed p {
+    font-size: 0.7rem;
+    text-align: left;
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+
+.sed a {
+    padding: 0.5rem 0.9rem;
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #E28525;
+    border-radius: 0.8rem;
+}
+
+/* second */
+
+.suv {
+    background-color: #016972;
+    padding: 2rem;
+}
+
+.suv img {
+    width: 2rem;
+    margin-bottom: 1rem;
+}
+
+.suv h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.suv p {
+    font-size: 0.7rem;
+    text-align: left;
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+
+.suv a {
+    padding: 0.5rem 0.9rem;
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #016972;
+    border-radius: 0.8rem;
+}
+
+/* Third */
+
+.lux {
+    background-color: #00403F;
+    padding: 2rem;
+}
+
+.lux img {
+    width: 2rem;
+    margin-bottom: 1rem;
+}
+
+.lux h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.lux p {
+    font-size: 0.7rem;
+    text-align: left;
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+
+.lux a {
+    padding: 0.5rem 0.9rem;
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #016972;
+    border-radius: 0.8rem;
+}
+
+/* Mobile */
+
+@media (max-width:375px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        border-radius: 0.5rem;
+
+    }
+
+    .sed {
+        border-radius: 0;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        
+    }
+
+    .sed p {
+        font-size: 1rem;
+        font-weight: 400;
+        width: 90%;
+    }
+
+    .suv p {
+        font-size: 1rem;
+        font-weight: 400;
+        width: 90%;
+    }
+
+    .lux {
+        border-radius: 0;
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+    }
+
+    .lux p {
+        font-size: 1rem;
+        font-weight: 400;
+        width: 90%;
+    }
+}
